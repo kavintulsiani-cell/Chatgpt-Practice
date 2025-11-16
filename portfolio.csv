@@ -1,0 +1,2 @@
+ticker,buy_price,qty,buy_amount,sell_price,sell_amount,current_price,pnl_live,pnl_live_percent,pnl_final,pnl_final_percent,status
+SBIN.NS,950.0,100,95000.0,,,,,,,,OPEN

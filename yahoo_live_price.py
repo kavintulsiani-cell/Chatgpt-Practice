@@ -54,8 +54,9 @@ def get_live_price(user_ticker):
     except requests.exceptions.RequestException as e:
         print("⚠️ Network error:", e)
         return None
-ticker = input ("Enter stock symbol: ")
-user_ticker = normalize_ticker (ticker)
-print (user_ticker)
-live_price = get_live_price(user_ticker)
-print(live_price)
+if __name__ == "__main__":
+    ticker = input ("Enter stock symbol: ")
+    user_ticker = normalize_ticker (ticker)
+    print (user_ticker)
+    live_price = get_live_price(user_ticker)
+    print(live_price)

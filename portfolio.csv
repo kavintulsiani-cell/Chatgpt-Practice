@@ -1,2 +1,3 @@
-ticker,buy_price,qty,buy_amount,sell_price,sell_amount,current_price,pnl_live,pnl_live_percent,pnl_final,pnl_final_percent,status
-SBIN.NS,950.0,100,95000.0,,,,,,,,OPEN
+ticker,buy_price,qty,buy_amount,current_price,pnl_live,pnl_live_percent,date_buy,status,position_value
+RELIANCE.NS,1390.0,50,69500.0,1519.4,,,2025-11-19,OPEN,75970.0
+SBIN.NS,800.0,50,40000.0,972.45,,,2025-11-19,OPEN,48622.5
